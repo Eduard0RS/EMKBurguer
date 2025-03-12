@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Cores principais -->
+    <color name="primary">#FF5722</color> <!-- Laranja (associada ao apetite) -->
+    <color name="primary_variant">#E64A19</color> <!-- Laranja mais escuro -->
+    <color name="secondary">#FFC107</color> <!-- Amarelo (associado ao calor) -->
+    <color name="secondary_variant">#FF9800</color> <!-- Amarelo mais escuro -->
+
+    <!-- Cores neutras -->
+    <color name="background">#F5F5F5</color> <!-- Cor de fundo suave -->
+    <color name="surface">#FFFFFF</color> <!-- Superfície branca -->
+    <color name="on_primary">#FFFFFF</color> <!-- Texto branco sobre a cor principal -->
+    <color name="on_secondary">#212121</color> <!-- Texto escuro sobre a cor secundária -->
+
+    <!-- Textos e ícones -->
+    <color name="text_primary">#212121</color> <!-- Texto primário (escuro) -->
+    <color name="text_secondary">#757575</color> <!-- Texto secundário (mais suave) -->
+    <color name="icon">#212121</color> <!-- Cor dos ícones (escuro) -->
+
+    <!-- Para estados de interação -->
+    <color name="button_disabled">#BDBDBD</color> <!-- Cor do botão desativado -->
+    <color name="button_pressed">#FF3D00</color> <!-- Cor quando o botão é pressionado -->
+
+    <!-- Cores complementares -->
+    <color name="green_200">#80E27E</color> <!-- Verde suave para vegetais, etc -->
+    <color name="green_500">#388E3C</color> <!-- Verde mais forte -->
+    <color name="red_200">#FF8A80</color> <!-- Vermelho suave para carne, pimentas, etc -->
+
+    <!-- Cores adicionais -->
+    <color name="brown_500">#6D4C41</color> <!-- Marrom (cor de carne assada, pão, etc) -->
+    <color name="gold">#FFD700</color> <!-- Ouro (para detalhes de luxo ou premium) -->
+    <color name="white">#FFFFFFFF</color> <!-- Branco -->
+</resources>
