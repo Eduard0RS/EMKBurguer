@@ -1,4 +1,4 @@
-package com.example.emkburguer.ui.home
+package com.devedotech.emkburguer.ui.home
 
 import android.content.Context
 

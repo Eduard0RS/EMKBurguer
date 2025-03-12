@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.devedotech.emkburguer" />
+                  <option name="mobileSdkAppId" value="1:678200357337:android:495f6a2d18d67f17b529c8" />
+                  <option name="projectId" value="devedotech-8fd26" />
+                  <option name="projectNumber" value="678200357337" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

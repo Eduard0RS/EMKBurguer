@@ -1,10 +1,10 @@
-package com.example.emkburguer.data.repository
+package com.devedotech.emkburguer.data.repository
 
-import com.example.emkburguer.data.model.LoginRequest
-import com.example.emkburguer.data.model.LoginResponse
-import com.example.emkburguer.data.remote.ApiClient
-import com.example.emkburguer.data.remote.AuthService
-import com.example.emkburguer.data.remote.FakeAuthService
+import com.devedotech.emkburguer.data.model.LoginRequest
+import com.devedotech.emkburguer.data.model.LoginResponse
+import com.devedotech.emkburguer.data.remote.ApiClient
+import com.devedotech.emkburguer.data.remote.AuthService
+import com.devedotech.emkburguer.data.remote.FakeAuthService
 
 class AuthRepository {
     private val authService = ApiClient.retrofit.create(AuthService::class.java)

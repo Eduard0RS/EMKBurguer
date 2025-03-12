@@ -65,6 +65,8 @@ fun AuthScreen(navController: NavController?, viewModel: AuthViewModel) {
 
     val context = LocalContext.current
 
+    viewModel
+
     LaunchedEffect(rememberMeState) {
         rememberMe = rememberMeState
         if (rememberMeState) {
@@ -176,12 +178,12 @@ fun AuthScreen(navController: NavController?, viewModel: AuthViewModel) {
             // Botão de Login
             Button(
                 onClick = {
-                    viewModel.login(
+                    viewModel.loginWithFirebase(
                         email = login,
                         password = password,
                         rememberMe = rememberMe,
                         onSuccess = {
-                            Log.d(tag, "Login bem-sucedido: ${it.token}")
+                            Log.d(tag, "Login bem-sucedido: ${it}")
                             navController?.navigate(Screen.Home.route)
                         },
                         onError = {

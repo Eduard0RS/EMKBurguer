@@ -7,7 +7,7 @@ import androidx.navigation.compose.rememberNavController
 import com.devedotech.emkburguer.ui.auth.AuthScreen
 import com.devedotech.emkburguer.ui.auth.AuthViewModel
 import com.devedotech.emkburguer.ui.home.HomeScreen
-import com.example.emkburguer.ui.home.HomeViewModel
+import com.devedotech.emkburguer.ui.home.HomeViewModel
 import androidx.navigation.compose.composable
 
 
@@ -30,7 +30,6 @@ fun NavGraph(startDestination: String = Screen.Auth.route) {
         composable(Screen.Auth.route) {
             AuthScreen(navController, AuthViewModel(LocalContext.current))
         }
-
 
 //        // Tela de cadastro (SignUpScreen)
 //        composable(Screen.SignUp.route) {
