@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EMKBurguer</string>
+    <string name="enter_password">Digite sua senha</string>
+    <string name="enter_login">Digite seu email</string>
+    <string name="enter_button">Entrar</string>
+    <string name="signup_button">Cadastrar-se</string>
+    <string name="sigin_with_google">Entrar com google</string>
+    <string name="forgot_password">Esqueci minha senha</string>
+</resources>
