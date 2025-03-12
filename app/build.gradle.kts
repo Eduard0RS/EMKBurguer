@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.emkburguer"
+    namespace = "com.devedotech.emkburguer"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.emkburguer"
+        applicationId = "com.devedotech.emkburguer"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
